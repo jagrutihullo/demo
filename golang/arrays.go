@@ -10,9 +10,9 @@ func main() {
 	fmt.Println(s, len(s), cap(s))
 	s = append(s, 5, 6, 7, 8)
 	fmt.Println(s, len(s), cap(s))
-
+	fmt.Println(arr)
 	for i := range arr {
 		fmt.Scanln(&arr[i])
 	}
-	fmt.Println(arr)
+
 }
