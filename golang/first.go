@@ -17,6 +17,6 @@ func main() {
 	const i = 56.53435
 	const j = i
 	fmt.Printf("%g %T\n", j, j)
-	//	fmt.Printf("%d %d\n", k, l)
-	//	fmt.Println("string " + s)
+	fmt.Printf("%d %d\n", k, l)
+	fmt.Println("string " + s)
 }
