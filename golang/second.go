@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var i int = 0
-	for {
+	for i < 20 {
 		fmt.Print(i)
 		i++
 	}
